@@ -1,6 +1,6 @@
-# shopapi
+# Users Api
 
-A new Flutter project.
+In this project i use randome users api to desplay random users. 
 
 ## Getting Started
 
