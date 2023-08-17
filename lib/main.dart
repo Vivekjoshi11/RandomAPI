@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'homepage.dart';
+// import 'homepage.dart';
+import 'form.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 51, 8, 124)),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const MyForm(),
+      initialRoute: "/form()",
     );
   }
 }
